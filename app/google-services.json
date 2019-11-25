@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "132062414137",
+    "firebase_url": "https://uxm-grade-manage.firebaseio.com",
+    "project_id": "uxm-grade-manage",
+    "storage_bucket": "uxm-grade-manage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132062414137:android:a85dcf836e9dcdf6ed94e8",
+        "android_client_info": {
+          "package_name": "com.example.uxm_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132062414137-dckgs1kuq54of0i1udao4ad1polcdche.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uxm_login",
+            "certificate_hash": "ac14b1cd96991ed4029d8e2aa771149e59bc3472"
+          }
+        },
+        {
+          "client_id": "132062414137-35h40jdr95rrbijg1rt91gtaq2btvrap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGgTMwyn5tFBxtHrv_ImauddspFTLgzMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132062414137-35h40jdr95rrbijg1rt91gtaq2btvrap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

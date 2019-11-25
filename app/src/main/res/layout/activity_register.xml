@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/enter_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="이메일"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enter_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/enter_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/enter_id"
+        app:layout_constraintTop_toBottomOf="@+id/enter_id" />
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/View_password_Const"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="@+id/View_password_Const"
+        app:layout_constraintTop_toBottomOf="@+id/enter_password"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/enter_student_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="학번"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/enter_name"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/enter_name"
+        app:layout_constraintTop_toBottomOf="@+id/enter_name" />
+
+    <Button
+        android:id="@+id/btn_Signup_Register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="8dp"
+        android:text="회원가입"
+        app:layout_constraintBottom_toBottomOf="@+id/View_student_id_Const"
+        app:layout_constraintEnd_toEndOf="@+id/enter_student_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/enter_student_id"
+        app:layout_constraintTop_toBottomOf="@+id/enter_student_id"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <TextView
+        android:id="@+id/View_password_Const"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="비밀번호는 영문과 숫자를 조합한 최소 6자리로 구성하시오"
+        android:textColor="#110101"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/enter_password"
+        app:layout_constraintEnd_toEndOf="@+id/enter_password"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="@+id/enter_password"
+        app:layout_constraintTop_toBottomOf="@+id/enter_password"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/View_student_id_Const"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="학번은 8자리이다."
+        android:textColor="#FA130202"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/enter_student_id"
+        app:layout_constraintEnd_toEndOf="@+id/enter_student_id"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="@+id/enter_student_id"
+        app:layout_constraintTop_toBottomOf="@+id/enter_student_id"
+        app:layout_constraintVertical_bias="0.421" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
